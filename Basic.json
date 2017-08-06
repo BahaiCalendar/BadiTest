@@ -1,0 +1,216 @@
+{
+	"name": "Basic",
+	"description" : "Basic testing.",
+	"tests" : [
+		{
+			"name" : "Naw Ruz",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 3,
+				"date"  : 21,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 1,
+				"date"  : 1,
+				"daytime" : true
+			}
+		},{
+			"name" : "First day of Ridvan",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 4,
+				"date"  : 21,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 2,
+				"date"  : 13,
+				"daytime" : true
+			}
+		},{
+			"name" : "Ninth day of Ridvan",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 4,
+				"date"  : 29,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 3,
+				"date"  : 2,
+				"daytime" : true
+			}
+		},{
+			"name" : "Twelfth day of Ridvan",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 5,
+				"date"  : 2,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 3,
+				"date"  : 5,
+				"daytime" : true
+			}
+		},{
+			"name" : "Declaration of the Báb",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 5,
+				"date"  : 24,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 4,
+				"date"  : 8,
+				"daytime" : true
+			}
+		},{
+			"name" : "Ascension of Bahá'u'lláh",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 5,
+				"date"  : 29,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 4,
+				"date"  : 13,
+				"daytime" : true
+			}
+		},{
+			"name" : "Martyrdom of the Báb",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 7,
+				"date"  : 10,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 6,
+				"date"  : 17,
+				"daytime" : true
+			}
+		},{
+			"name" : "Day of the Covenant",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 11,
+				"date"  : 26,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 14,
+				"date"  : 4,
+				"daytime" : true
+			}
+		},{
+			"name" : "Ascension of 'Abdu'l-Bahá",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2015,
+				"month" : 11,
+				"date"  : 28,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 14,
+				"date"  : 6,
+				"daytime" : true
+			}
+		},{
+			"name" : "Ala 1st",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2016,
+				"month" : 3,
+				"date"  : 1,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 20,
+				"date"  : 1,
+				"daytime" : true
+			}
+		},{
+			"name" : "Failure Check",
+			"description" : "",
+			"error" : "",
+			"type" : "two-way",
+			"input" :{
+				"type"  : "Gregorian",
+				"year"  : 2016,
+				"month" : 1,
+				"date"  : 25,
+				"daytime" : true
+			},
+			"output" : {
+				"type"  : "Badi",
+				"year"  : 172,
+				"month" : 17,
+				"date"  : 7,
+				"daytime" : true
+			}
+		}
+	]
+}
