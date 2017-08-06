@@ -7,7 +7,7 @@ Test to support all the projects in the [BahaiCalendar group](https://github.com
 Previously at [BadiCal](https://github.com/dmcblue/BadiCal) but that repo is being split into individual languages in the [BahaiCalendar group](https://github.com/BahaiCalendar).
 
 There are currently versions for:
-+ PHP (this)
++ [PHP](https://github.com/BahaiCalendar/BadiCalPHP)
 + [Javascript](https://github.com/BahaiCalendar/BadiCalJS)
 
 ## Format
@@ -38,4 +38,4 @@ Tests have the following format:
 }
 ```
 
-Test types, etc, will be expanded as needed. Currently, *two-way* is a basic equivalency test.  W is Gregorian, X is Badi; B(W) = Y isBadi, G(X) = Z is Gregorian; Assert W == Z AND X == Y. 
+Test types, etc, will be expanded as needed. Currently, *two-way* is a basic equivalency test.  W is Gregorian, X is Badi; B(W) = Y is Badi, G(X) = Z is Gregorian; Assert W == Z AND X == Y. 
